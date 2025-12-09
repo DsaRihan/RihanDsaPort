@@ -10,11 +10,9 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/DsaRihan",
   resume:
-    "https://drive.google.com/file/d/1F66t9Bl98bjmqIvPKIqqLZI7YHcozGp7/view?usp=sharing",
+    "https://drive.google.com/file/d/1erp53nyft3lVt9Vvxl-xxcw_GZNzJvkt/view",
   linkedin: "https://www.linkedin.com/in/rihan-dsa-8144b1217/",
-  // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/_rihan_x__?igsh=cmpzaTBuZnp3N2d3&utm_source=qr",
-  // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
