@@ -13,20 +13,19 @@ const HeroSection = () => {
                     <HeroBgAnimation />
                 </HeroBg>
                 <HeroInnerContainer >
-                    <HeroLeftContainer id="Left">
-                        
+                <HeroLeftContainer id="Left">
+                        <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
-                            <Title> Hey, I am
+                            I am a
                             <Span>
                                 <Typewriter
                                     options={{
-                                        strings: Bio.name,
+                                        strings: Bio.roles,
                                         autoStart: true,
                                         loop: true,
                                     }}
                                 />
                             </Span>
-                            </Title> 
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>

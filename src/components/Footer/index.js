@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rihan D S A</Logo>
+        <Logo>Rihan DSA</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -102,9 +102,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
+        {/* <Copyright>
           &copy; 2024 Rihan D S A. All rights reserved.
-        </Copyright>
+        </Copyright> */}
 
       </FooterWrapper>
     </FooterContainer>

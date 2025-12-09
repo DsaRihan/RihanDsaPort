@@ -174,31 +174,36 @@ export const ResumeButton = styled.a`
     width: 100%;
     max-width: 300px;
     text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    padding: 14px 8px;
+    color: ${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
-    // font-size: 50px;
+    
+    /* --- Adjusted Font Properties --- */
+    font-size: 20px; /* Standard size for text inside the button */
     font-weight: 600;
-    text-size:10px;
+    
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
     background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
+    
+    /* --- Standard Box Shadow for Resting State --- */
+    box-shadow: 20px 20px 60px #1F2634,
+                -20px -20px 60px #1F2634;
+                
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+        transition: all 0.4s ease-in-out;
+        /* --- Fixed Hover State (box-shadow was missing value) --- */
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.6); /* Use a simpler shadow on hover */
+        filter: brightness(1.2); /* Increased brightness for a stronger glow */
     }    
     
-    
+    /* --- Media Query for Smaller Screens --- */
     @media (max-width: 640px) {
         padding: 12px 0;
-        font-size: 18px;
+        font-size: 18px; /* Adjusted font size for mobile */
     } 
-
 `;
