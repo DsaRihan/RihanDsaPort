@@ -56,6 +56,26 @@ const SkillsContainer = styled.div`
   justify-content: center;
 `
 
+// const Skill = styled.div`
+//   width: 100%;
+//   max-width: 500px;
+//   background: ${({ theme }) => theme.card};
+//   border: 0.1px solid #854CE6;
+//   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+//   border-radius: 16px;
+//   padding: 18px 36px;
+//   @media (max-width: 768px) {
+//     max-width: 400px;
+//     padding: 10px 36px;
+//   }
+//   @media (max-width: 500px) {
+//     max-width: 330px;
+//     padding: 10px 36px;
+//   }
+
+
+// `
+
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
@@ -64,6 +84,16 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  
+  // --- ADDED: Animation Setup ---
+  transition: all 0.3s ease-in-out; 
+  
+  &:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); // Lifts the card up 5px
+  }
+  // ------------------------------
+  
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -72,9 +102,7 @@ const Skill = styled.div`
     max-width: 330px;
     padding: 10px 36px;
   }
-
-
-`
+`;
 
 const SkillTitle = styled.h2`
   font-size: 28px;

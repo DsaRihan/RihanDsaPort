@@ -13,7 +13,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1erp53nyft3lVt9Vvxl-xxcw_GZNzJvkt/view",
   linkedin: "https://www.linkedin.com/in/rihan-dsa-8144b1217/",
-  insta: "https://www.instagram.com/_rihan_x__?igsh=cmpzaTBuZnp3N2d3&utm_source=qr",
+  insta: "https://www.instagram.com/_rihan_dsa_?igsh=cmpzaTBuZnp3N2d3&utm_source=qr",
 };
 
 export const skills = [
