@@ -319,7 +319,7 @@ export const projects = [
     {
       id: 3,
       title: "WEATHER WEB",
-      date: "Date Not Specified",
+      date: "2023",
       description:
         "Designed a dynamic weather site using HTML, CSS, and JavaScript, integrating an API for real-time weather data. Designed responsive web pages with modern UI/UX, ensuring cross-browser compatibility and mobile responsiveness.",
       image:
@@ -331,7 +331,7 @@ export const projects = [
     {
       id: 4,
       title: "APP DEVELOPMENT FOR MAD (Emergency App)",
-      date: "Date Not Specified",
+      date: "2023",
       description:
         "Developed an Emergency App using Java and Android Studio, providing users with a reliable platform for accessing emergency services and resources. Created a user-friendly app incorporating features like real-time location tracking, emergency contacts, and quick access to emergency services.",
       image:
@@ -343,14 +343,14 @@ export const projects = [
     {
       id: 5,
       title: "DIGITAL IMAGE PROCESSING",
-      date: "Date Not Specified",
+      date: "2022",
       description:
         "This project aims to convert grayscale images into visually appealing RGB images using OpenCV, Matplotlib, and NumPy. The converted and enhanced RGB images generated contribute to the field of computer vision and image processing.",
       image:
         "/assets/dip.jpg", // Placeholder
       tags: ["OpenCV", "Matplotlib", "NumPy", "Digital Image Processing"],
       category: "machine learning", // Categorized under ML/Computer Vision
-      github: "", // Placeholder
+      github: "https://github.com/DsaRihan/chromacraft", // Placeholder
     },
 ];
 
