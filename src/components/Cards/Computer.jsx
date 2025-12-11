@@ -66,8 +66,8 @@ const ComputersCanvas = () => {
       antialias: true
       }}
     >
-      {/* <Suspense fallback={<CanvasLoader />}> */}
-      <Suspense fallback={<span>Loading 3D Model...</span>}>
+      <Suspense fallback={<CanvasLoader />}>
+      {/* <Suspense fallback={<span>Loading 3D Model...</span>}> */}
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

@@ -24,7 +24,7 @@ const Description = styled.div`
     }
 `
 
-const Span = styled.span`
+const TagSpan = styled.span`
 overflow: hidden;
 display: -webkit-box;
 max-width: 100%;
@@ -59,7 +59,7 @@ const Card = styled.div`
         display: flex;
     }
 
-    &:hover ${Span}{
+    &:hover ${TagSpan}{
         overflow: visible;
         -webkit-line-clamp: unset;
 
@@ -141,7 +141,7 @@ const EducationCard = ({ education }) => {
             </Top>
             <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                <TagSpan>{education.desc}</TagSpan>
             </Description>
         </Card>
     )

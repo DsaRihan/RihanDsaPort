@@ -153,10 +153,10 @@ export const TextSpan = styled.span`
   cursor: pointer;
 `;
 
-export const Span = styled.span`
-  color: ${({ theme }) => theme.primary};
-  cursor: pointer;
-`;
+// export const Span = styled.span`
+//   color: ${({ theme }) => theme.primary};
+//   cursor: pointer;
+// `;
 
 export const SubTitle = styled.div`
   font-size: 20px;

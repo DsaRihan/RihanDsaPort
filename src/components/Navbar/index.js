@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import ProfileImg from '../../images/Black Pattern Minimalist LinkedIn Profile Picture.jpg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -12,11 +13,30 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+        {/* <NavLogo to='/'>
+          <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <NavSpan>Portfolio</NavSpan>
-          </a>
-        </NavLogo>
+          </div>
+        </NavLogo> */}
+        <NavLogo to='/'>
+                    {/* 2. REPLACE ICON WITH IMAGE TAG AND STYLING */}
+                    <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
+                        
+                        <img 
+                            src={ProfileImg} 
+                            alt="Profile Photo" 
+                            style={{ 
+                                width: '3rem',  // Set the size to match the original icon
+                                height: '3rem',
+                                borderRadius: '50%', // Make it circular
+                                objectFit: 'cover',  // Ensure the image covers the circle
+                                marginRight: '8px'   // Add a small space between photo and text
+                            }} 
+                        />
+                        
+                        <NavSpan>Portfolio</NavSpan>
+                    </div>
+                </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
             setIsOpen(!isOpen)
