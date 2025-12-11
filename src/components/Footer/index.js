@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { BsGithub } from 'react-icons/bs';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
+// import ComputersCanvas from '../Cards/Computer';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -109,7 +110,9 @@ function Footer() {
         </Copyright> */}
 
       </FooterWrapper>
+      {/* <ComputersCanvas /> */}
     </FooterContainer>
+    
   );
 }
 
