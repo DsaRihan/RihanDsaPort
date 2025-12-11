@@ -75,11 +75,14 @@ export const HeroLeftContainer = styled.div`
 `;
 
 export const HeroRightContainer = styled.div`
-  width: 100%;
+ width: 100%;
+  height: 500px;
   display: flex;
   order: 2;
-  justify-content: end;
-  gap: 12px;
+  margin-top: -280px;
+  margin-right: -80px;
+  justify-content: center;
+  align-items: center;
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -145,10 +148,15 @@ export const TextLoop = styled.div`
   }
 `;
 
-export const Span = styled.span`
+export const TextSpan = styled.span`
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
 `;
+
+// export const Span = styled.span`
+//   color: ${({ theme }) => theme.primary};
+//   cursor: pointer;
+// `;
 
 export const SubTitle = styled.div`
   font-size: 20px;
