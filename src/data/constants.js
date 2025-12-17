@@ -11,7 +11,7 @@ export const Bio = {
     "I am a dedicated and adaptable professional driven by continuous learning and a commitment to high standards. I actively seek out challenges that push the boundaries of my skills, viewing every project as an opportunity for growth and delivering clear, measurable results. I am ready to bring a positive, focused energy to any team and make a meaningful impact.",
   github: "https://github.com/DsaRihan",
   resume:
-    "https://drive.google.com/file/d/1erp53nyft3lVt9Vvxl-xxcw_GZNzJvkt/view",
+    "https://drive.google.com/file/d/1oO-b52wBrFz1uooNom5rkv5TWEDQDAPU/view",
   linkedin: "https://www.linkedin.com/in/rihan-dsa-8144b1217/",
   insta: "https://www.instagram.com/_rihan_dsa_?igsh=cmpzaTBuZnp3N2d3&utm_source=qr",
 };
