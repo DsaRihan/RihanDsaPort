@@ -471,7 +471,7 @@ export const projects = [
       date: "2025",
       description:
         "A scalable microservice architecture built with Java and Akka to process high-frequency telemetry data. It includes robust REST APIs to serve aggregated datasets and complex PostgreSQL queries for handling massive parallel time-series workloads.",
-      image: "/assets/javaimage.png",
+      image: "/assets/javaimage.jpeg",
       tags: ["Java", "Akka", "PostgreSQL", "Microservices", "REST APIs"],
       category: "backend",
       github: "https://github.com/DsaRihan/Energy-Analytics-API",
@@ -482,7 +482,7 @@ export const projects = [
       date: "2025",
       description:
         "A robust pipeline for machine learning applications, focusing on efficient data ingestion and storage using SQLite and ChromaDB. Containerized with Docker, deployed using Terraform, and automated with GitHub Actions CI/CD.",
-      image: "/assets/mlp.png",
+      image: "/assets/mlp.jpg",
       tags: [
         "Python",
         "SQLite",
