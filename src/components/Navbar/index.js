@@ -1,9 +1,7 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, NavSpan, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
+import { Nav, NavLink, NavbarContainer, NavSpan, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import ProfileImg from '../../images/Black Pattern Minimalist LinkedIn Profile Picture.jpg';
 
@@ -24,7 +22,7 @@ const Navbar = () => {
                         
                         <img 
                             src={ProfileImg} 
-                            alt="Profile Photo" 
+                            alt="Profile" 
                             style={{ 
                                 width: '3rem',  // Set the size to match the original icon
                                 height: '3rem',
