@@ -42,12 +42,12 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         name: "Bootstrap",
@@ -63,6 +63,16 @@ export const skills = [
         name: "Flutter",
         image:
           "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
     ],
   },
@@ -105,6 +115,65 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Go (Golang)",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+      },
+      {
+        name: "SQLite",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg",
+      },
+      {
+        name: "REST APIs",
+        image: "https://www.vectorlogo.zone/logos/openapis/openapis-icon.svg",
+      },
+      {
+        name: "Data Pipelines / ETL",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg",
+      },
+      {
+        name: "JSON Data Structuring",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg",
+      },
+      {
+        name: "Microservices Architecture",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+      },
+    ],
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: [
+      {
+        name: "AWS (Amazon Web Services)",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      },
+      {
+        name: "Terraform (Infrastructure as Code)",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
+      },
+      {
+        name: "GitHub Actions",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg",
+      },
+      {
+        name: "CI/CD Pipelines",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+      },
+      {
+        name: "Linux / Bash Scripting",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      },
     ],
   },
   {
@@ -138,7 +207,7 @@ export const skills = [
       {
         name: "Python",
         image:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       },
       {
         name: "TensorFlow",
@@ -158,14 +227,40 @@ export const skills = [
       {
         name: "Google Colab",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/512px-Google_Drive_icon_%282020%29.svg.png",
+          "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/googlecolab.svg",
       },
       {
         name: "Sk Learn Kit",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/512px-Scikit_learn_logo_small.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg",
       },
       
+    ],
+  },
+  {
+    title: "AI, Automation & Vector Search",
+    skills: [
+      {
+        name: "Vector Databases (ChromaDB)",
+        // Simple Icons doesn't currently provide a ChromaDB logo; use a stable generic DB icon.
+        image: "https://cdn.simpleicons.org/databricks",
+      },
+      {
+        name: "RAG (Retrieval-Augmented Generation)",
+        image: "https://cdn.simpleicons.org/langchain",
+      },
+      {
+        name: "AI Agents / Tool Calling",
+        image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/openai.svg",
+      },
+      {
+        name: "NLP (Natural Language Processing)",
+        image: "https://cdn.simpleicons.org/huggingface",
+      },
+      {
+        name: "Workflow Automation (n8n, Zapier, Microsoft Power Automate)",
+        image: "https://cdn.simpleicons.org/n8n",
+      },
     ],
   },
   {
@@ -190,7 +285,7 @@ export const skills = [
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_icon.svg/512px-Visual_Studio_Code_icon.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
       },
       {
         name: "Postman",
@@ -206,6 +301,24 @@ export const skills = [
         name: "Figma",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Design & Creative AI",
+    skills: [
+      {
+        name: "ComfyUI",
+        image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/stabilityai.svg",
+      },
+      {
+        name: "LoRA Training",
+        image: "https://cdn.simpleicons.org/pytorch",
+      },
+      {
+        name: "Adobe Photoshop / Illustrator",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
       },
     ],
   },
@@ -351,6 +464,46 @@ export const projects = [
       tags: ["OpenCV", "Matplotlib", "NumPy", "Digital Image Processing"],
       category: "machine learning", // Categorized under ML/Computer Vision
       github: "https://github.com/DsaRihan/chromacraft", // Placeholder
+    },
+    {
+      id: 6,
+      title: "Smart Energy Analytics API",
+      date: "2025",
+      description:
+        "A scalable microservice architecture built with Java and Akka to process high-frequency telemetry data. It includes robust REST APIs to serve aggregated datasets and complex PostgreSQL queries for handling massive parallel time-series workloads.",
+      image: "/assets/banner_1000_x_560.png",
+      tags: ["Java", "Akka", "PostgreSQL", "Microservices", "REST APIs"],
+      category: "backend",
+      github: "https://github.com/DsaRihan/Energy-Analytics-API",
+    },
+    {
+      id: 7,
+      title: "MLP Project",
+      date: "2025",
+      description:
+        "A robust pipeline for machine learning applications, focusing on efficient data ingestion and storage using SQLite and ChromaDB. Containerized with Docker, deployed using Terraform, and automated with GitHub Actions CI/CD.",
+      image: "/assets/banner_1000_x_560.png",
+      tags: [
+        "Python",
+        "SQLite",
+        "Docker",
+        "Terraform",
+        "GitHub Actions",
+        "ChromaDB",
+      ],
+      category: "machine learning",
+      github: "https://github.com/DsaRihan/MLP-Project",
+    },
+    {
+      id: 8,
+      title: "AI Job Screening Analyzer",
+      date: "2026",
+      description:
+        "An automated AI-driven tool that extracts, processes, and validates unstructured data using LLMs and REST APIs. It features agentic workflows, custom tool calling, and strict guardrails to produce reliable structured JSON outputs.",
+      image: "/assets/banner_1000_x_560.png",
+      tags: ["Python", "LLMs", "OpenAI API", "Prompt Engineering", "Validation"],
+      category: "artificial intelligence",
+      github: "https://github.com/DsaRihan/AI-Job-Screening-Analyzer",
     },
 ];
 
