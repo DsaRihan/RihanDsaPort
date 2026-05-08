@@ -471,7 +471,7 @@ export const projects = [
       date: "2025",
       description:
         "A scalable microservice architecture built with Java and Akka to process high-frequency telemetry data. It includes robust REST APIs to serve aggregated datasets and complex PostgreSQL queries for handling massive parallel time-series workloads.",
-      image: "/assets/banner_1000_x_560.png",
+      image: "/assets/javaimage.png",
       tags: ["Java", "Akka", "PostgreSQL", "Microservices", "REST APIs"],
       category: "backend",
       github: "https://github.com/DsaRihan/Energy-Analytics-API",
@@ -482,7 +482,7 @@ export const projects = [
       date: "2025",
       description:
         "A robust pipeline for machine learning applications, focusing on efficient data ingestion and storage using SQLite and ChromaDB. Containerized with Docker, deployed using Terraform, and automated with GitHub Actions CI/CD.",
-      image: "/assets/banner_1000_x_560.png",
+      image: "/assets/mlp.png",
       tags: [
         "Python",
         "SQLite",
@@ -500,7 +500,7 @@ export const projects = [
       date: "2026",
       description:
         "An automated AI-driven tool that extracts, processes, and validates unstructured data using LLMs and REST APIs. It features agentic workflows, custom tool calling, and strict guardrails to produce reliable structured JSON outputs.",
-      image: "/assets/banner_1000_x_560.png",
+      image: "/assets/aijob.png",
       tags: ["Python", "LLMs", "OpenAI API", "Prompt Engineering", "Validation"],
       category: "artificial intelligence",
       github: "https://github.com/DsaRihan/AI-Job-Screening-Analyzer",
